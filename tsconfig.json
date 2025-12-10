@@ -1,4 +1,5 @@
 {
+   "include": ["bin", "lib", "automation"],
   "compilerOptions": {
     "target": "ES2022",
     "module": "NodeNext",
@@ -23,7 +24,8 @@
     "skipLibCheck": true,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "outDir": "dist" 
   },
   "exclude": [
     "node_modules",
